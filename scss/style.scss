@@ -1,0 +1,87 @@
+// Import Bootstrap SCSS
+@import '../bootstrap/scss/bootstrap';
+
+// Custom Bootstrap variables for dark theme
+$body-bg: #1a1a1a;
+$text-color: #ffffff;
+$input-bg: #333333;
+$input-border-color: #444444;
+$input-color: #ffffff;
+$btn-primary-bg: #6a1b9a;
+$btn-primary-border: #6a1b9a;
+$btn-primary-color: #ffffff;
+
+// Custom styles
+body {
+  background-color: $body-bg;
+  color: $text-color;
+  background-image: url('https://i.pinimg.com/originals/d9/46/35/d946357e717ddeb19d4742d51dcd2b61.jpg'); // Replace with your image path
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h2 {
+    color: #a29bfe;
+}
+
+.form-container, .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 100%;
+    max-width: 514px;
+    margin-top: 20px;
+    background-color: rgba(45, 45, 45, 0.8); // Adjust the opacity here
+    color: #ffffff;
+    border: none; // Remove border
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); // Add box shadow for better appearance
+}
+
+.card-header {
+    background-color: rgba(59, 59, 59, 0.8); // Adjust the opacity here
+    border-bottom: none;
+}
+
+.card-header h2 {
+    margin-bottom: 0;
+    color: #a29bfe;
+}
+
+.card-footer {
+    background-color: rgba(59, 59, 59, 0.8); // Adjust the opacity here
+    border-top: none;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    background-color: #6c5ce7;
+    border-color: #6c5ce7;
+}
+
+.btn-primary:hover {
+    background-color: #a29bfe;
+    border-color: #a29bfe;
+}
+
+.btn-secondary {
+    background-color: #90bbca;
+    border-color: #81afbf;
+}
+
+.btn-secondary:hover {
+    background-color: #b2bec3;
+    border-color: #b2bec3;
+}
+
+.profile-details p {
+    font-size: 1.2em;
+}
+
+.profile-details span {
+    color: #a29bfe;
+}

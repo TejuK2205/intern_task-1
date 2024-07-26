@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Profile</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container profile-container">
+        <div class="card">
+            <div class="card-header">
+                <h2>User Profile</h2>
+            </div>
+            <div class="card-body">
+                <div class="profile-details">
+                    <p><strong>Name:</strong> <span id="profile-name"></span></p>
+                    <p><strong>Age:</strong> <span id="profile-age"></span></p>
+                    <p><strong>Contact:</strong> <span id="profile-contact"></span></p>
+                    <p><strong>Username:</strong> <span id="profile-username"></span></p>
+                </div>
+                <button id="update-btn" class="btn btn-primary">Update Details</button>
+                <button id="logout-btn" class="btn btn-secondary">Logout</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/profile.js"></script>
+</body>
+</html>
